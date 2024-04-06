@@ -1,18 +1,18 @@
 # 尚硅谷 Vue2 教程实操
 ## 1.1.Vue的基本操作
-    - vue.js的引入
+    vue.js的引入
 ## 1.2.Vue的基本使用
-    - new Vue({
+    new Vue({
         el: '#root',
         data:{},
         methods:{}
     })
-    - MVVM: M-模型，V-视图，VM-视图模型
+    MVVM: M-模型，V-视图，VM-视图模型
 ## 1.3.模板语法
-    - 插值: {{name}}
-    - 指令：:href:"school.url"
-    - 单向绑定：v-bind:value="name"(简写： :value="name")
-    - 双向绑定：v-model:value="name"(简写： v-model="name")
+    插值: {{name}}
+    指令：:href:"school.url"
+    单向绑定：v-bind:value="name"(简写： :value="name")
+    双向绑定：v-model:value="name"(简写： v-model="name")
 ## 1.4.计算属性和监视
     
 ## 1.5.class与style绑定
