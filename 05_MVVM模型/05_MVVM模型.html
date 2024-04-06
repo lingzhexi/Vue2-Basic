@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVVM模型</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+<body>
+<!-- M:模型：对于data数据-->
+<!-- V:视图：模板-->
+<!-- VM:视图模型：Vue实例对象-->
+<div id="root">
+    <h2>学校的地址：{{address}}</h2>
+    <h2>学校的名称：{{name}}</h2>
+    <h2>测试一下：{{1+1}}</h2>
+    <h2>测试一下2：{{$options}}</h2>
+    <h2>测试一下3：{{$emit}}</h2>
+</div>
+</body>
+<script type="text/javascript">
+    const vm = new Vue({
+        el:"#root",
+        data:{
+            name:"尚硅谷",
+            address:'北京'
+        }
+    })
+</script>
+</html>
